@@ -1,0 +1,12 @@
+#ifndef XCPCANPLUGIN_GLOBAL_H
+#define XCPCANPLUGIN_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(XCPCANPLUGIN_LIBRARY)
+#  define XCPCANPLUGIN_EXPORT Q_DECL_EXPORT
+#else
+#  define XCPCANPLUGIN_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // XCPCANPLUGIN_GLOBAL_H
