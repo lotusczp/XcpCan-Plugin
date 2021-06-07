@@ -1,0 +1,6 @@
+[submodule "xcpmaster"]
+	path = xcpmaster
+	url = https://github.com/lotusczp/XcpMaster.git
+[submodule "common"]
+	path = common
+	url = https://github.com/lotusczp/Lobster-SDK.git
